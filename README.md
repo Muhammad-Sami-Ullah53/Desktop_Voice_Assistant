@@ -1,163 +1,229 @@
-# 🎙️ Python Voice Assistant (Jarvis AI)
+# <div align="center">
 
-A powerful **AI-based Voice Assistant** built using Python that can understand voice commands, perform tasks, open applications, search the web, play music, and act like a smart desktop assistant.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=1000&color=00CFFF&center=true&vCenter=true&width=900&lines=🎙️+JARVIS+AI+VOICE+ASSISTANT;🤖+Your+Personal+Desktop+Companion;🚀+Voice+Controlled+Automation+System;🧠+Smart+AI+Powered+Assistant" />
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00CFFF,100:0066FF&height=250&section=header&text=JARVIS%20AI&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
 
-## 🚀 Features
-
-✨ Wake Word Activation (`Jarvis`)
-🗣️ Speech Recognition (Voice Commands)
-🔊 Text-to-Speech Responses
-🌐 Web Automation (Google, YouTube, GitHub)
-🔎 Deep Research Mode (Auto Google Search)
-📚 Wikipedia Knowledge Search
-🎵 Play Music on YouTube
-🧮 Basic Math Operations (Add, Subtract, Multiply, Divide)
-💻 Open Applications (VS Code, Chrome, Notepad, Calculator, etc.)
-📁 System Control (Shutdown, Restart, Lock PC)
-📅 Date & Time Assistant
-🧠 Smart Command Understanding
+</div>
 
 ---
 
-## 🛠️ Technologies Used
+<div align="center">
 
-* Python 🐍
-* SpeechRecognition
-* pyttsx3
-* sounddevice
-* scipy
-* wikipedia API
-* pywhatkit
-* webbrowser
-* os & subprocess
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge\&logo=python)
+
+![AI](https://img.shields.io/badge/AI-Powered-green?style=for-the-badge)
+
+![Voice Assistant](https://img.shields.io/badge/Voice-Assistant-red?style=for-the-badge)
+
+![Open Source](https://img.shields.io/badge/Open-Source-orange?style=for-the-badge)
+
+![MIT License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+
+</div>
 
 ---
 
-## 📦 Installation
+# 🚀 About The Project
 
-Clone the repository:
+### 🎙️ Jarvis AI Voice Assistant
 
-```bash
-git clone https://github.com/your-username/voice-assistant.git
-cd voice-assistant
+A powerful and intelligent **Voice-Controlled Desktop Assistant** built using **Python** that listens to your voice commands and performs real-world tasks instantly.
+
+✨ Open applications
+
+✨ Search the web
+
+✨ Play music
+
+✨ Answer questions
+
+✨ Perform calculations
+
+✨ Control your computer
+
+✨ Act as your personal AI assistant
+
+---
+
+## 🎬 Live Working Flow
+
+```mermaid
+graph LR
+
+A[🎤 Voice Input]
+--> B[🗣 Speech Recognition]
+
+B --> C[🧠 Command Analysis]
+
+C --> D[⚡ Action Processing]
+
+D --> E[💻 System Operations]
+
+D --> F[🌐 Web Search]
+
+D --> G[🎵 Music Player]
+
+D --> H[📚 Wikipedia]
+
+E --> I[🔊 Voice Response]
+
+F --> I
+
+G --> I
+
+H --> I
 ```
 
-Install dependencies:
+---
 
-```bash
-pip install SpeechRecognition pyttsx3 sounddevice scipy wikipedia pywhatkit
-```
+# ✨ Key Features
+
+<table>
+<tr>
+
+<td width="50%">
+
+### 🎤 Voice Recognition
+
+Convert speech into commands using advanced speech recognition.
+
+</td>
+
+<td width="50%">
+
+### 🔊 Voice Responses
+
+Natural text-to-speech interaction.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+### 🌐 Smart Web Assistant
+
+Search Google, YouTube, GitHub and more.
+
+</td>
+
+<td>
+
+### 📚 Knowledge Engine
+
+Get instant answers from Wikipedia.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+### 💻 Desktop Automation
+
+Launch applications automatically.
+
+</td>
+
+<td>
+
+### 🧮 Calculator Assistant
+
+Perform mathematical operations instantly.
+
+</td>
+
+</tr>
+
+</table>
 
 ---
 
-## ▶️ How to Run
-
-Run the main file:
-
-```bash
-python main.py
-```
-
-Then say:
+# 🎯 Feature Progress
 
 ```text
-Jarvis
+Voice Recognition      ████████████████████ 100%
+
+Text To Speech         ████████████████████ 100%
+
+Web Automation         ████████████████████ 100%
+
+Wikipedia Search       ████████████████████ 100%
+
+Music Assistant        ████████████████████ 100%
+
+Desktop Control        ████████████████████ 100%
+
+AI Chat Integration    ███████████░░░░░░░░ 55%
 ```
 
 ---
 
-## 🎤 Available Voice Commands
+# 📸 Project Preview
 
-### 🟢 Basic Commands
+<div align="center">
 
-* Hello
-* How are you
-* What is your name
+<img width="800" src="https://user-images.githubusercontent.com/sample/jarvis-demo.gif">
 
-### 🟡 Time & Date
-
-* What is the time
-* What is today's date
-
-### 🔵 Web Commands
-
-* Open Google
-* Open YouTube
-* Open GitHub
-* Deep research Artificial Intelligence
-
-### 🟣 Knowledge Commands
-
-* Who is Elon Musk
-* What is Python
-* Explain Machine Learning
-
-### 🟠 App Control
-
-* Open VS Code
-* Open Chrome
-* Open Notepad
-* Open Calculator
-
-### 🔴 Entertainment
-
-* Play Believer song
-
-### ⚫ System Commands
-
-* Lock PC
-* Restart PC
-* Shutdown PC
+</div>
 
 ---
 
-## 🧠 Working Concept
+## 🏗️ System Architecture
 
-1. Microphone records audio
-2. SpeechRecognition converts voice → text
-3. Command processor analyzes text
-4. System executes action
-5. pyttsx3 speaks response
+```text
+┌─────────────────────┐
+│ 🎤 User Voice Input │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Speech Recognition  │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Command Processor   │
+└──────────┬──────────┘
+           │
+ ┌─────────┼─────────┐
+ ▼         ▼         ▼
 
----
+🌐 Web    💻 Apps   🎵 Music
 
-## 📸 Project Preview
+           │
+           ▼
 
-```
-Voice Input → Speech Recognition → Command Processing → Action Execution → Voice Output
+🔊 Voice Response
 ```
 
 ---
 
-## 📌 Future Improvements
+# ⚡ Why Jarvis?
 
-* AI chatbot integration (ChatGPT / Gemini)
-* GUI interface (Tkinter / PyQt)
-* Offline speech recognition
-* Personalized voice training
-* Smart home control
+✅ Beginner Friendly
 
----
+✅ Real-World Project
 
-## 👨‍💻 Author
+✅ AI Powered
 
-**Muhammad Sami Ullah**
-💡 Python Developer | AI Enthusiast
+✅ Automation Based
 
----
+✅ Resume Worthy
 
-## ⭐ Support
+✅ Open Source
 
-If you like this project:
-
-* ⭐ Star the repository
-* 🍴 Fork it
-* 📢 Share it
+✅ Expandable Architecture
 
 ---
 
-## 📜 License
+<div align="center">
 
-This project is open-source and available under the MIT License.
+### 🌟 "Talk to your computer like Iron Man talks to Jarvis"
+
+</div>
